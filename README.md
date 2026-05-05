@@ -196,11 +196,13 @@ Hệ thống có các mode chính:
 ### DS1302
 
 * Gửi command → đọc/ghi thanh ghi
-* Frame:
+* Khung truyền khi gửi lệnh ghi vào giờ:
 
-  ```
-  [Command] → [Data]
-  ```
+![Sơ đồ chân MCU Attiny2313](photos/ds1302_write_wp_off.png)
+
+![Sơ đồ chân MCU Attiny2313](photos/ds1302_write_hour.png)
+
+![Sơ đồ chân MCU Attiny2313](photos/ds1302_write_wp_on.png)
 
 ---
 
